@@ -103,7 +103,7 @@ Retrieves all items from the CSV file.
 # Get all items
 items = read_all_items()
 # Returns: [
-#   {"id": "8713b031-dd68-431a-b107-191249601ad3", "name": "pen drives", "qty": 30},
+#   {"id": "8713b031-dd68-431a-b107-191249601ad3", "name": "pen drive", "qty": 5},
 #   {"id": "53ef44f4-b687-4654-a1d6-0e13c8b09808", "name": "pencil", "qty": 1},
 #   ...
 # ]
