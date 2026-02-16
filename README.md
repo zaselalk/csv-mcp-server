@@ -103,8 +103,8 @@ Retrieves all items from the CSV file.
 # Get all items
 items = read_all_items()
 # Returns: [
-#   {"id": "418e90", "name": "pen drives", "qty": 30},
-#   {"id": "6f68bf", "name": "pen drive", "qty": 2},
+#   {"id": "8713b031-dd68-431a-b107-191249601ad3", "name": "pen drives", "qty": 30},
+#   {"id": "53ef44f4-b687-4654-a1d6-0e13c8b09808", "name": "pencil", "qty": 1},
 #   ...
 # ]
 ```
@@ -115,9 +115,9 @@ The server stores data in a CSV file named `data.csv` in the same directory as t
 
 ```csv
 id,name,qty
-418e90,pen drives,30
-6f68bf,pen drive,2
-a33b7e,keyboards,5
+8713b031-dd68-431a-b107-191249601ad3,Banana,2
+8c071b04-97cf-45ed-8ff2-2369ea36bc21,Banana,2
+53ef44f4-b687-4654-a1d6-0e13c8b09808,pencil,1
 ```
 
 If the file doesn't exist when the server starts, it will be automatically created with the appropriate headers.
